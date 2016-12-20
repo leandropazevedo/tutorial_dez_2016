@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func btnAction(_ sender: Any) {
-        let alerta = UIAlertController(title: "Hello2", message: "Hello World!", preferredStyle: .alert)
+        let alerta = UIAlertController(title: "Hello3", message: "Hello World!", preferredStyle: .alert)
         alerta.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(alerta, animated: true, completion: nil)
         
